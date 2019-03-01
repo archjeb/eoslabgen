@@ -1,0 +1,65 @@
+#Spines:
+DC1-Spine-1:
+    description: DC1-Spine1
+    Ma1: Lab-vEOS 
+    E1: vEOS-DC1-1
+    E2: vEOS-DC1-2
+    E3: vEOS-DC1-3
+    E4: vEOS-DC1-4
+
+DC1-Spine-2:
+    description: DC1-Spine2
+    Ma1: Lab-vEOS
+    E1: vEOS-DC1-21
+    E2: vEOS-DC1-22
+    E3: vEOS-DC1-23
+    E4: vEOS-DC1-24
+
+#Leafs:
+DC1-R1-Leaf-1:
+    description: DC1-R1-Leaf-1
+    Ma1: Lab-vEOS
+    E1: vEOS-DC1-100
+    E2: vEOS-DC1-101
+    E3: vEOS-DC1-102
+    E4: vEOS-DC1-103
+
+DC1-R1-Leaf-2:
+    description: DC1-R1-Leaf-2
+    Ma1: Lab-vEOS
+    E1: vEOS-DC1-100
+    E2: vEOS-DC1-101
+    E3: vEOS-DC1-104
+    E4: vEOS-DC1-105
+
+DC1-R2-Leaf-1:
+    description: DC1-R2-Leaf-1
+    Ma1: Lab-vEOS
+    E1: vEOS-DC1-200
+    E2: vEOS-DC1-201
+    E3: vEOS-DC1-202
+    E4: vEOS-DC1-203
+
+DC1-R2-Leaf-2:
+    description: DC1-R2-Leaf-2
+    Ma1: Lab-vEOS
+    E1: vEOS-DC1-200
+    E2: vEOS-DC1-201
+    E3: vEOS-DC1-204
+    E4: vEOS-DC1-205
+
+DC1-R3-Leaf-1:
+    description: DC1-R3-Leaf-1
+    Ma1: Lab-vEOS
+    E1: vEOS-DC1-300
+    E2: vEOS-DC1-301
+    E3: vEOS-DC1-302
+    E4: vEOS-DC1-303
+
+DC1-R3-Leaf-2:
+    description: DC1-R3-Leaf-2
+    Ma1: Lab-vEOS
+    E1: vEOS-DC1-300
+    E2: vEOS-DC1-301
+    E3: vEOS-DC1-304
+    E4: vEOS-DC1-305
