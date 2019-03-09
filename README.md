@@ -47,7 +47,11 @@ optional arguments:
 ```
 
 
-### Example with sample yaml file: eosgenlab.py -d datastore1 -s 10.0.0.9 -u root -S -l vEOS-lab.vmdk -y example.yaml 
+### Example with sample yaml file: 
+```
+eosgenlab.py -d datastore1 -s 10.0.0.9 -u root -S -l vEOS-lab.vmdk -y example.yaml 
+```
+
 ```
 Enter password for host 10.0.0.9 and user root: 
 Uploading vmdk for DC1-R1-Leaf-1...
