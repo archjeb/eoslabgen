@@ -21,7 +21,33 @@ This script has only been tested on ESXi6.5 and without vCenter.
 
 ## Example
 
-### Command Line: eosgenlab.py -d datastore1 -s 10.0.0.9 -u root -S -l vEOS-lab.vmdk -y example.yaml 
+### Usage
+```
+$ ./eoslabgen.py --help
+usage: eoslabgen.py [-h] -d DATASTORE -s HOST -u USER [-o PORT] [-S] -l
+                    LOCAL_FILE -y YAML_FILE [-p PASSWORD]
+
+Standard Arguments for talking to vCenter for vEOS
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DATASTORE, --datastore DATASTORE
+                        Datastore name
+  -s HOST, --host HOST  esxi host to connect to
+  -u USER, --user USER  User name to use when connecting to host
+  -o PORT, --port PORT  Port to connect on
+  -S, --disable_ssl_verification
+                        Disable ssl host certificate verification
+  -l LOCAL_FILE, --local_file LOCAL_FILE
+                        Local vEOS vmdk disk path to file to upload
+  -y YAML_FILE, --yaml_file YAML_FILE
+                        Yaml file to parse
+  -p PASSWORD, --password PASSWORD
+                        Password to use when connecting to host
+```
+
+
+### Example with sample yaml file: eosgenlab.py -d datastore1 -s 10.0.0.9 -u root -S -l vEOS-lab.vmdk -y example.yaml 
 ```
 Enter password for host 10.0.0.9 and user root: 
 Uploading vmdk for DC1-R1-Leaf-1...
@@ -83,7 +109,7 @@ eoslabgen requires pyVmomi. Easiest way is to install with pip.
 
 # LIMITATIONS:
 This has only been tested on ESXi 6.5 but should work fine in previous releases. Also, it's really designed around using a single ESXi target host; therefore it probably will 
-not work with vSphere without some changes. Perhaps that could be a version 2.
+not work with vCenter without some changes. Perhaps that could be a version 2.
 
 
 License
