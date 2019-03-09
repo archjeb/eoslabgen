@@ -15,7 +15,7 @@ The purpose of this script is to quickly build a vEOS-LAB topology from a yaml f
 and VM's effortlessly. All that is needed is the latest vEOS-lab.vmdk file from Arista, a locally generated yaml file with 
 topology parameters and an ESXi host.
 
-This script has only been tested on ESXi6.5 and without vSphere.
+This script has only been tested on ESXi6.5 and without vCenter.
 
 
 
