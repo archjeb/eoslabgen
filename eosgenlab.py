@@ -48,7 +48,7 @@ import requests
 import ssl
 import getpass
 
-from pyvim import connect
+from pyVim import connect
 from pyVmomi import vim
 from pyVmomi import vmodl
 import argparse
