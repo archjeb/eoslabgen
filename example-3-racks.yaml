@@ -6,6 +6,8 @@ DC1-Spine-1:
     E2: vEOS-DC1-2
     E3: vEOS-DC1-3
     E4: vEOS-DC1-4
+    E5: vEOS-DC1-5
+    E6: vEOS-DC1-6
 
 DC1-Spine-2:
     description: DC1-Spine2
@@ -14,6 +16,8 @@ DC1-Spine-2:
     E2: vEOS-DC1-22
     E3: vEOS-DC1-23
     E4: vEOS-DC1-24
+    E5: vEOS-DC1-25
+    E6: vEOS-DC1-26
 
 #Leafs:
 DC1-R1-Leaf-1:
@@ -47,3 +51,19 @@ DC1-R2-Leaf-2:
     E2: vEOS-DC1-24
     E3: vEOS-DC1-200
     E4: vEOS-DC1-201
+
+DC1-R3-Leaf-1:
+    description: DC1-R3-Leaf-1
+    Ma1: Lab-vEOS
+    E1: vEOS-DC1-5
+    E2: vEOS-DC1-25
+    E3: vEOS-DC1-300
+    E4: vEOS-DC1-301
+
+DC1-R3-Leaf-2:
+    description: DC1-R3-Leaf-2
+    Ma1: Lab-vEOS
+    E1: vEOS-DC1-6
+    E2: vEOS-DC1-26
+    E3: vEOS-DC1-300
+    E4: vEOS-DC1-301
