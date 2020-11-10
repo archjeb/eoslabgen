@@ -13,9 +13,9 @@ eoslabgen.py
 
 The purpose of this script is to quickly build a vEOS-LAB topology from a yaml file and generate the entire vSwitch, PortGroup
 and VM's effortlessly. All that is needed is the latest vEOS-lab.vmdk file from Arista, a locally generated yaml file with 
-topology parameters and an ESXi host.
+topology parameters and an ESXi host. 
 
-This script has only been tested on ESXi6.5 and without vCenter.
+This script has only been tested on ESXi6.5.
 
 
 
@@ -99,7 +99,7 @@ vEOS-lab generation complete!
 
 eoslabgen requires pyVmomi. Easiest way is to install with pip.
 
-1. pip install pyvmomi 
+1. pip install pyvmomi. Or see repo at https://github.com/vmware/pyvmomi 
 
 2. clone eoslabgen from github repo.
 
@@ -112,8 +112,8 @@ eoslabgen requires pyVmomi. Easiest way is to install with pip.
 
 
 # LIMITATIONS:
-This has only been tested on ESXi 6.5 but should work fine in previous releases. Also, it's really designed around using a single ESXi target host; therefore it probably will 
-not work with vCenter without some changes. Perhaps that could be a version 2.
+This has only been tested on ESXi 6.5 but should work fine in previous releases. This uses the python SDK for the VMware vSphere API.
+Also, it's really designed and tested around using a single ESXi target host; therefore it may or may not work in a multi ESXi server environment. 
 
 
 License
