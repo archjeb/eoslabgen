@@ -105,7 +105,7 @@ eoslabgen requires pyVmomi. Easiest way is to install with pip.
 
 3. Get the latest vEOS-lab.vmdk from Arista (create a support login)
 
-4. Create your yaml file (example.yaml is provided in repo).
+4. Create your yaml file (example.yaml is provided in repo with 2 racks of leafs with MLAG links).
 
 5. Execute and lab should generate
 
