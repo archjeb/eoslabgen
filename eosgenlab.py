@@ -164,7 +164,7 @@ def create_vm(vmname, service_instance, vm_folder, resource_pool,datastore, swit
 
     config = vim.vm.ConfigSpec(
                                 name=vmname,
-                                memoryMB=2048,
+                                memoryMB=4096,
                                 numCPUs=1,
                                 files=vmx_file,
                                 guestId='rhel6_64Guest',
